@@ -116,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        android:background="@drawable/rounded_frame_background">
+        android:background="@drawable/fragmentinfo">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="243dp"

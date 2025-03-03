@@ -1,5 +1,6 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.Adapters
 
+import com.example.prototypeonkor.APIService.PatientApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

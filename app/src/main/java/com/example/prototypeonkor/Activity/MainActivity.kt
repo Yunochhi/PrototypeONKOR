@@ -1,14 +1,18 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.Activity
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.prototypeonkor.Fragments.DispancerFragment
+import com.example.prototypeonkor.Fragments.MainFragment
+import com.example.prototypeonkor.Fragments.ProfileFragment
+import com.example.prototypeonkor.Fragments.ProtocolsFragment
+import com.example.prototypeonkor.Fragments.VisitsFragment
+import com.example.prototypeonkor.R
 import com.example.prototypeonkor.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 

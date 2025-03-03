@@ -1,4 +1,4 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.APIService
 
 import retrofit2.http.Body
 import retrofit2.http.POST

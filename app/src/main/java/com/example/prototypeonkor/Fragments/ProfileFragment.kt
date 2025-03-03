@@ -1,9 +1,12 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.Fragments
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.example.prototypeonkor.Activity.AuthorizationActivity
+import com.example.prototypeonkor.Activity.MainActivity
+import com.example.prototypeonkor.R
 import com.example.prototypeonkor.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment(R.layout.fragment_profile) {

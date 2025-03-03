@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:background="@drawable/rounded_frame_background"
+        android:background="@drawable/fragmentinfo"
         android:orientation="vertical"
         android:gravity="center_vertical"
         android:paddingHorizontal="15dp">
@@ -34,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="Имя врача"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -58,6 +59,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:text="Дата"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent" />
@@ -83,6 +85,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:text="Время"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -107,6 +110,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:text="ЛПУ"
+                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
         </LinearLayout>

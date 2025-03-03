@@ -1,11 +1,12 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.Adapters
 
-import android.icu.text.DateFormat
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.prototypeonkor.APIService.ProtocolFile
+import com.example.prototypeonkor.R
 
 class ProtocolAdapter(private val protocols: List<ProtocolFile>) :
     RecyclerView.Adapter<ProtocolAdapter.ProtocolViewHolder>() {

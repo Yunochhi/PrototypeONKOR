@@ -1,4 +1,4 @@
-package com.example.prototypeonkor
+package com.example.prototypeonkor.Activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.prototypeonkor.R
 import com.example.prototypeonkor.databinding.ActivityLoadingBinding
 
 class LoadingActivity : AppCompatActivity() {

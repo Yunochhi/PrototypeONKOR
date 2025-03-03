@@ -5,11 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.prototypeonkor.MainFragment
-import com.example.prototypeonkor.ProtocolFile
+import com.example.prototypeonkor.APIService.ProtocolFile
 import com.example.prototypeonkor.R
 
-class MainProtocolsAdapter(private val protocols: List<ProtocolFile>) : RecyclerView.Adapter<MainProtocolsAdapter.ViewHolder>(){
+class MainProtocolsAdapter(private val protocols: List<ProtocolFile>) : RecyclerView.Adapter<MainProtocolsAdapter.ViewHolder>() {
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.textView)
     }
@@ -21,14 +21,13 @@ class MainProtocolsAdapter(private val protocols: List<ProtocolFile>) : Recycler
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        if (protocols.isEmpty()) return
-
-        val index = if (protocols.size >= 3) protocols.size - 3 + position else position
-        holder.textView.text = protocols[index].fileName
+        if (protocols.isNotEmpty()) {
+            val index = protocols.size - getItemCount() + position
+            holder.textView.text = protocols[index].info.lpu
+        }
     }
 
     override fun getItemCount(): Int {
         return Math.min(3, protocols.size)
     }
-
 }
