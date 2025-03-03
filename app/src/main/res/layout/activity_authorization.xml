@@ -37,7 +37,7 @@
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/edit_text_background"
+        android:background="@drawable/button"
         android:paddingStart="16dp"
         android:textColor="@android:color/black"
         android:textColorHint="@android:color/black"
