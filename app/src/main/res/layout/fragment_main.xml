@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="15dp">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp"
         android:text="ЛПУ наблюдения"
         android:textColor="@color/white"
@@ -22,7 +21,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="379dp"
+        android:layout_width="415dp"
         android:layout_height="189dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/fragmentinfo"
@@ -76,7 +75,7 @@
 
     <LinearLayout
             android:id="@+id/linearLayout4"
-        android:layout_width="379dp"
+        android:layout_width="415dp"
         android:layout_height="189dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/fragmentinfo"
@@ -177,7 +176,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="379dp"
+            android:layout_width="415dp"
             android:layout_height="189dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/fragmentinfo"
