@@ -14,6 +14,6 @@
         android:title="@string/visits" />
     <item
         android:id="@+id/navigation_dispensaryobservation"
-        android:icon="@drawable/dispensaryobservation"
+        android:icon="@drawable/dispensar"
         android:title="@string/dispensaryobservation" />
 </menu>

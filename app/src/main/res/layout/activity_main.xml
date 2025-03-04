@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainfone"
+    android:background="@xml/mainfone"
     tools:context=".Activity.MainActivity">
 
     <LinearLayout
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="95dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/fragmentinfo"
+        android:background="@xml/fragmentinfo"
         android:orientation="horizontal"
         android:layout_marginHorizontal="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,8 +82,8 @@
         android:id="@+id/bottomNavigationBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/menucolor"
-        app:itemBackground="@drawable/menucolor"
+        android:background="@xml/menucolor"
+        app:itemBackground="@xml/menucolor"
         app:itemIconTint="@color/white"
         app:itemRippleColor="@color/grey"
         app:itemTextColor="@color/white"

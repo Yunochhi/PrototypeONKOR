@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainfone"
+    android:background="@xml/mainfone"
     tools:context=".Activity.AuthorizationActivity">
 
     <ImageView
@@ -37,7 +37,7 @@
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/button"
+        android:background="@xml/button"
         android:paddingStart="16dp"
         android:textColor="@android:color/black"
         android:textColorHint="@android:color/black"
@@ -53,7 +53,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center"
         android:layout_marginTop="28dp"
-        android:background="@drawable/button_border"
+        android:background="@xml/button_border"
         android:gravity="center"
         android:text="@string/found"
         android:textColor="@android:color/white"

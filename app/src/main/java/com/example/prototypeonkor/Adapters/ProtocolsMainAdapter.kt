@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.prototypeonkor.APIService.ProtocolFile
 import com.example.prototypeonkor.R
 
-class MainProtocolsAdapter(private val protocols: List<ProtocolFile>) : RecyclerView.Adapter<MainProtocolsAdapter.ViewHolder>() {
+class ProtocolsMainAdapter(private val protocols: List<ProtocolFile>) : RecyclerView.Adapter<ProtocolsMainAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.textView)

@@ -10,8 +10,8 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.prototypeonkor.Adapters.MainProtocolsAdapter
-import com.example.prototypeonkor.Adapters.RetrofitInstance
+import com.example.prototypeonkor.Adapters.ProtocolsMainAdapter
+import com.example.prototypeonkor.Class.RetrofitInstance
 import com.example.prototypeonkor.R
 import com.example.prototypeonkor.APIService.SnilsRequest
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -72,7 +72,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             if (protocols.isNotEmpty()) {
                 withContext(Dispatchers.Main)
                 {
-                    val adapter = MainProtocolsAdapter(protocols)
+                    val adapter = ProtocolsMainAdapter(protocols)
                     mainProtocolsRec.adapter = adapter
                 }
             }

@@ -1,4 +1,4 @@
-package com.example.prototypeonkor.Adapters
+package com.example.prototypeonkor.Class
 
 import com.example.prototypeonkor.APIService.PatientApiService
 import retrofit2.Retrofit
