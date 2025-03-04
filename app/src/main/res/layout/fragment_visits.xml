@@ -13,7 +13,11 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
+<<<<<<< HEAD
         android:layout_marginHorizontal="5dp"
+=======
+        android:layout_marginHorizontal="10dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

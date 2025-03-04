@@ -6,7 +6,11 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="10dp"
+=======
+        android:layout_marginTop="10dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />

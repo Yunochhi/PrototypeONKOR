@@ -8,7 +8,11 @@
     android:background="@xml/mainfone"
     tools:context=".Activity.MainActivity">
 
+<<<<<<< HEAD
     <androidx.constraintlayout.widget.ConstraintLayout
+=======
+    <LinearLayout
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="95dp"
@@ -25,21 +29,32 @@
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_gravity="center_vertical"
+<<<<<<< HEAD
             android:layout_marginStart="15dp"
             android:background="@drawable/avatar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+=======
+            android:layout_marginStart="10dp"
+            android:background="@drawable/avatar" />
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             android:layout_marginStart="15dp"
             android:gravity="center_vertical"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/actionBtn"
             app:layout_constraintTop_toTopOf="parent">
+=======
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 
             <TextView
                 android:id="@+id/userFirstName"
@@ -61,6 +76,7 @@
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </LinearLayout>
+<<<<<<< HEAD
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/notificationsBtn"
@@ -72,6 +88,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    </LinearLayout>
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -81,7 +100,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+<<<<<<< HEAD
     </FrameLayout>
+=======
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_profile"
+        android:layout_width="454dp"
+        android:layout_height="915dp"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationBar"
         android:layout_width="0dp"

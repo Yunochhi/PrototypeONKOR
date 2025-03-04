@@ -9,10 +9,17 @@
 
     <TextView
         android:id="@+id/textView"
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="5dp"
         android:layout_marginTop="10dp"
+=======
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:text="Динспансерные посещения"
         android:textColor="@color/white"
         android:textSize="30sp"

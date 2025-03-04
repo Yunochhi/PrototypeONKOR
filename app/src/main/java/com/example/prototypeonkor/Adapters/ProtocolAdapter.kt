@@ -15,7 +15,10 @@ class ProtocolAdapter(private val protocols: List<ProtocolFile>) :
         val dateTextView: TextView = itemView.findViewById(R.id.dateTextView)
         val timeTextView: TextView = itemView.findViewById(R.id.timeTextView)
         val titleTextView: TextView = itemView.findViewById(R.id.titleTextView)
+<<<<<<< HEAD
         val nameTextView: TextView = itemView.findViewById(R.id.nameTextView)
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProtocolViewHolder {
@@ -28,7 +31,10 @@ class ProtocolAdapter(private val protocols: List<ProtocolFile>) :
         holder.dateTextView.text = protocol.info.date
         holder.timeTextView.text = protocol.info.time
         holder.titleTextView.text = protocol.info.lpu
+<<<<<<< HEAD
         holder.nameTextView.text = protocol.fileName
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
     }
 
     override fun getItemCount(): Int {

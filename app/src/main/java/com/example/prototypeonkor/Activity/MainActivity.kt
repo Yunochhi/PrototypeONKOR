@@ -1,6 +1,9 @@
 package com.example.prototypeonkor.Activity
 
+<<<<<<< HEAD
 import android.content.Intent
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +12,10 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.prototypeonkor.Fragments.DispancerFragment
 import com.example.prototypeonkor.Fragments.MainFragment
+<<<<<<< HEAD
+=======
+import com.example.prototypeonkor.Fragments.ProfileFragment
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 import com.example.prototypeonkor.Fragments.ProtocolsFragment
 import com.example.prototypeonkor.Fragments.VisitsFragment
 import com.example.prototypeonkor.R
@@ -34,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         replaceFragment(MainFragment(), R.id.fragment_container)
 
         binding.actionBtn.setOnClickListener {
+<<<<<<< HEAD
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
@@ -41,6 +49,12 @@ class MainActivity : AppCompatActivity() {
         binding.notificationsBtn.setOnClickListener{
             val intent = Intent(this, NotificationActivity::class.java)
             startActivity(intent)
+=======
+            val profileFragment = ProfileFragment()
+            if (currentFragment !is ProfileFragment) {
+                replaceFragment(profileFragment, R.id.fragment_profile)
+            }
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         }
 
         binding.bottomNavigationBar.setOnNavigationItemSelectedListener { menuItem ->

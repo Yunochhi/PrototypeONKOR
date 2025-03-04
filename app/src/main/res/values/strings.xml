@@ -11,5 +11,8 @@
     <string name="main">Главная</string>
     <string name="visits">Посещения</string>
     <string name="dispensaryobservation">Диспансер</string>
+<<<<<<< HEAD
     <string name="notificationsString">Уведомления</string>
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 </resources>
