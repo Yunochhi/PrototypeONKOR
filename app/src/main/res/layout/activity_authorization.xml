@@ -22,11 +22,15 @@
         android:id="@+id/snilsLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         android:layout_marginTop="15dp"
 =======
         android:layout_marginTop="484dp"
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+=======
+        android:layout_marginTop="484dp"
+>>>>>>> Stashed changes
         android:text="@string/snils"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -34,11 +38,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 =======
         app:layout_constraintTop_toTopOf="parent" />
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+=======
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> Stashed changes
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextSNILS"
