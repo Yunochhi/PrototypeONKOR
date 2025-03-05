@@ -11,7 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
+<<<<<<< HEAD
         android:layout_marginTop="25dp"
+=======
+        android:layout_marginTop="20dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:text="Протоколы"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -22,6 +26,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/protocolsRecyclerView"
+<<<<<<< HEAD
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
@@ -31,12 +36,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+=======
         android:layout_width="411dp"
         android:layout_height="652dp"
-        android:layoutЫ_marginStart="19dp"
+        android:layout_marginStart="19dp"
         android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 
 </androidx.constraintlayout.widget.ConstraintLayout>
