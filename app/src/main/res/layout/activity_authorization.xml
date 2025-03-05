@@ -22,7 +22,11 @@
         android:id="@+id/snilsLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginTop="15dp"
+=======
         android:layout_marginTop="484dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:text="@string/snils"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -30,8 +34,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+<<<<<<< HEAD
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+=======
         app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextSNILS"
@@ -53,7 +60,11 @@
         android:layout_width="385dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
+<<<<<<< HEAD
         android:layout_marginTop="30dp"
+=======
+        android:layout_marginTop="28dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:background="@xml/button_border"
         android:gravity="center"
         android:text="@string/found"
