@@ -4,49 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<<<<<<< HEAD
-=======
 
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
+
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="8dp"
-=======
+
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp"
         android:text="ЛПУ наблюдения"
         android:textColor="#1b2838"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<<<<<<< HEAD
-    <LinearLayout
         android:layout_width="415dp"
         android:layout_height="185dp"
         android:layout_marginTop="78dp"
-=======
+
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="415dp"
         android:layout_height="189dp"
         android:layout_marginTop="483dp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-<<<<<<< HEAD
+
             android:layout_width="318dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
@@ -71,29 +64,24 @@
                 android:layout_marginStart="140dp"
                 android:layout_marginTop="-3dp"
                 android:text="@string/protocols"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
                 android:textColor="@color/white"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <TextView
-<<<<<<< HEAD
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
                 android:text="ЛПУ:"
-=======
                 android:id="@+id/textLastVisits"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="Последние визиты"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-<<<<<<< HEAD
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -106,7 +94,6 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllDispancer"
-=======
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/mainProtocolsRec"
                 android:layout_width="match_parent"
@@ -116,25 +103,21 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllProtocols"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:background="@drawable/next" />
     </LinearLayout>
-<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="415dp"
         android:layout_height="185dp"
-=======
 
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="415dp"
         android:layout_height="189dp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:layout_marginTop="282dp"
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,21 +138,18 @@
                 android:layout_height="wrap_content"
                 android:text="@string/visits"
                 android:textColor="@color/white"
-<<<<<<< HEAD
                 android:textSize="23sp"
-=======
+
                 android:textSize="22sp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
+
                 android:layout_marginTop="18dp"
-=======
+
                 android:layout_marginTop="10dp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
                 android:text="09.02.2025"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -206,11 +186,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
                 android:layout_marginTop="45dp"
-=======
                 android:layout_marginTop="40dp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
                 android:text="УЗИ"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -243,26 +220,23 @@
             android:layout_marginEnd="10dp"
             android:background="@drawable/next" />
     </LinearLayout>
-<<<<<<< HEAD
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="415dp"
         android:layout_height="185dp"
-        android:layout_marginTop="483dp"
-=======
+        android:layout_marginTop="483dp"/>
+
 
     <LinearLayout
         android:layout_width="415dp"
         android:layout_height="189dp"
         android:layout_marginTop="78dp"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-<<<<<<< HEAD
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
@@ -288,12 +262,11 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllProtocols"
-=======
             android:layout_width="318dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"/>
 
             <TextView
                 android:layout_width="320dp"
@@ -324,18 +297,12 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllDispancer"
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:background="@drawable/next" />
     </LinearLayout>
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
