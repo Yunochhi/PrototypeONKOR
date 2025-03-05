@@ -36,6 +36,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 =======
@@ -48,12 +49,20 @@
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
         app:layout_constraintTop_toBottomOf="@+id/textView"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+=======
+>>>>>>> parent of dd37861 (gg)
         android:layout_width="411dp"
         android:layout_height="652dp"
-        android:layoutЫ_marginStart="19dp"
+        android:layout_marginStart="19dp"
         android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
 
 </androidx.constraintlayout.widget.ConstraintLayout>

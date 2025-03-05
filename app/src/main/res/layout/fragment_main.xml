@@ -4,18 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of dd37861 (gg)
 <<<<<<< HEAD
 =======
 
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+<<<<<<< HEAD
 =======
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of dd37861 (gg)
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
         android:layout_marginHorizontal="20dp"
@@ -27,20 +34,31 @@
         android:layout_marginTop="8dp"
 
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="8dp"
+=======
+>>>>>>> parent of dd37861 (gg)
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp"
         android:text="ЛПУ наблюдения"
         android:textColor="#1b2838"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
     <LinearLayout
@@ -54,27 +72,43 @@
         android:layout_marginTop="78dp"
 
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="78dp"
+=======
+>>>>>>> parent of dd37861 (gg)
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="415dp"
         android:layout_height="189dp"
         android:layout_marginTop="483dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+>>>>>>> parent of dd37861 (gg)
             android:layout_width="318dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
@@ -99,10 +133,14 @@
                 android:layout_marginStart="140dp"
                 android:layout_marginTop="-3dp"
                 android:text="@string/protocols"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
                 android:textColor="@color/white"
                 android:textSize="23sp"
                 android:textStyle="bold" />
@@ -113,19 +151,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
                 android:text="ЛПУ:"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
+=======
+=======
+>>>>>>> parent of dd37861 (gg)
                 android:id="@+id/textLastVisits"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="Последние визиты"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -143,10 +189,14 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllDispancer"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
+=======
+=======
+>>>>>>> parent of dd37861 (gg)
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/mainProtocolsRec"
                 android:layout_width="match_parent"
@@ -156,10 +206,14 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllProtocols"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
@@ -171,19 +225,27 @@
         android:id="@+id/linearLayout4"
         android:layout_width="415dp"
         android:layout_height="185dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
+=======
+=======
+>>>>>>> parent of dd37861 (gg)
 
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="415dp"
         android:layout_height="189dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
         android:layout_marginTop="282dp"
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -206,6 +268,7 @@
                 android:textColor="@color/white"
 <<<<<<< HEAD
                 android:textSize="23sp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
                 android:textSize="22sp"
@@ -214,11 +277,17 @@
 
                 android:textSize="22sp"
 >>>>>>> Stashed changes
+=======
+=======
+                android:textSize="22sp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
                 android:layout_marginTop="18dp"
@@ -227,10 +296,17 @@
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> parent of dd37861 (gg)
                 android:layout_marginTop="18dp"
-
+=======
                 android:layout_marginTop="10dp"
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
                 android:text="09.02.2025"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -269,6 +345,7 @@
                 android:layout_height="wrap_content"
 <<<<<<< HEAD
                 android:layout_marginTop="45dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
                 android:layout_marginTop="40dp"
@@ -276,6 +353,11 @@
 =======
                 android:layout_marginTop="40dp"
 >>>>>>> Stashed changes
+=======
+=======
+                android:layout_marginTop="40dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
                 android:text="УЗИ"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -313,6 +395,7 @@
         android:id="@+id/linearLayout3"
         android:layout_width="415dp"
         android:layout_height="185dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         android:layout_marginTop="483dp"
 =======
@@ -320,15 +403,23 @@
         android:layout_marginTop="483dp"/>
 
 >>>>>>> Stashed changes
+=======
+        android:layout_marginTop="483dp"
+=======
+>>>>>>> parent of dd37861 (gg)
 
     <LinearLayout
         android:layout_width="415dp"
         android:layout_height="189dp"
         android:layout_marginTop="78dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
         android:background="@xml/fragmentinfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -361,19 +452,27 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllProtocols"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> Stashed changes
+=======
+=======
+>>>>>>> parent of dd37861 (gg)
             android:layout_width="318dp"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:layout_weight="1"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             android:orientation="vertical">
 =======
             android:orientation="vertical"/>
 >>>>>>> Stashed changes
+=======
+            android:orientation="vertical">
+>>>>>>> parent of dd37861 (gg)
 
             <TextView
                 android:layout_width="320dp"
@@ -404,24 +503,34 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/buttonAllDispancer"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:background="@drawable/next" />
     </LinearLayout>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of dd37861 (gg)
 
 <<<<<<< HEAD
 
 =======
 >>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of dd37861 (gg)
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

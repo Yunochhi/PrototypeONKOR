@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
 <<<<<<< HEAD
         android:layout_marginBottom="10dp"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
         android:layout_marginTop="10dp"
@@ -15,6 +16,11 @@
 =======
         android:layout_marginTop="10dp"
 >>>>>>> Stashed changes
+=======
+=======
+        android:layout_marginTop="10dp"
+>>>>>>> 3fef75deb857198c8ca3017fb8ebc511ed69f08d
+>>>>>>> parent of dd37861 (gg)
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
